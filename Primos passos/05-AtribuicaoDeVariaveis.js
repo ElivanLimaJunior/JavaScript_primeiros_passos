@@ -45,7 +45,9 @@ console.log(nomeCompleto);
 
 //Existem variáveis que devem ter um estado inconstante, e neste caso usamos o letpara defini-las, como por exemplo um contador que varia de números.
 
-
+let contador = 0;
+contador = contador + 1;
+console.log(contador);
 
 
 // Extra: Atalho para mudar todas as ocorrências de uma vez ?
