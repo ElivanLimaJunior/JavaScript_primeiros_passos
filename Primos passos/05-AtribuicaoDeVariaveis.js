@@ -1,5 +1,4 @@
 console.log("Trabalhando com atribuição de variáveis")
-const idade = 29;
 let primeiroNome = "Ricardo";
 const sobrenome = "Bugan"
 
@@ -53,3 +52,12 @@ console.log(contador);
 // Extra: Atalho para mudar todas as ocorrências de uma vez ?
 
 //usando o atalho/comando F2 após selecionar a palavra que desejamos substituir as ocorrências, conseguimos alterar todas de uma véz só.
+
+//                          Let e Const
+
+// Conhecemos os tipos const e let e qual a diferença entre eles: sendo que no primeiro caso os valores da variável não podem se modificar, e no segundo caso sim. Além disso, estudamos as boas práticas para manter uma variável constante a fim de evitar erros e inconsistências em nosso programa.
+
+let idade; // declarando variável
+idade = 26; // atribuindo valor. É possível declarar e atribuir junto, isso é apenas um exemplo.
+idade = idade + 1;
+console.log(idade);
