@@ -10,7 +10,7 @@ const listaDeDestino = new Array(
 const idadeComprador = 17;
 const estaAcompanhada = false;
 let temPassagemComprada = false;
-const destino = "São Paulo";
+const destino = "Curitiba";
 
 console.log("\nDestinos possívels:");
 console.log(listaDeDestino);
@@ -18,13 +18,17 @@ console.log(listaDeDestino);
 const podeComprar = idadeComprador >= 18 || estaAcompanhada == true;
 
 let contador = 0;
+let destinoExiste = false;
 while(contador<3){
      
     if (listaDeDestino[contador] == destino){// entre [] é o lugar em que eu quero pegar o item da lista.
-    console.log("Destino Existe");
+    destinoExiste = true;
+    break;
     }else{
-        console.log("Destino não existe");
+        destinoExiste = false;
     }
 
     contador += 1;
 }
+
+console.log("Destino existe: ", destinoExiste)
