@@ -1,5 +1,5 @@
 {
-  "name": "bytebank",
+  "name": "c",
   "version": "1.0.0",
   "description": "Projeto do bytebank para seus clientes",
   "main": "index.js",
@@ -12,6 +12,7 @@
   },
   "author": "Elivan",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/ElivanLimaJunior/JavaScript_primeiros_passos/issues"
   },
